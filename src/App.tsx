@@ -495,13 +495,13 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 font-sans">
-      <header className="px-4 sm:px-6 py-3 shadow-sm flex flex-wrap justify-between items-center gap-3 bg-white border-b border-slate-200">
+      <header className="px-4 sm:px-6 py-3 shadow-sm flex flex-wrap justify-between items-center gap-3 bg-blue-700 text-white border-b border-blue-800">
         <div>
-          <h1 className="text-xl font-semibold text-slate-900">
+          <h1 className="text-xl font-semibold text-white">
             Dispute Intake Workstation
           </h1>
 
-          <p className="text-sm text-slate-600">
+          <p className="text-sm text-blue-100">
             Bank:{" "}
             <span
               className={`font-medium px-2 py-0.5 rounded-full text-xs ${
@@ -519,7 +519,7 @@ export default function App() {
 
         <button
           onClick={handleLogout}
-          className="bg-white hover:bg-slate-50 active:bg-slate-100 text-slate-700 text-sm font-medium px-3 py-1.5 rounded-md border border-slate-300 transition"
+          className="bg-blue-600 hover:bg-blue-500 active:bg-blue-800 text-white text-sm font-medium px-3 py-1.5 rounded-md border border-blue-500 transition"
         >
           Logout
         </button>
